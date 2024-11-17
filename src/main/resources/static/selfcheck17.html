@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>셀프체크 17</title>
+</head>
+<body>
+    <h1>Hello, <span id="target">World</span>!</h1>
+    <input type="text" id="text-input">
+    <button id="send-btn">전송</button>
+    <script>
+        // 자바 스크립트 코드 작성
+        const input = document.querySelector("#text-input");
+        const button = document.querySelector("#send-btn");
+
+        button.addEventListener("click", function () {
+
+            const str = input.value;
+            input.value = "";
+            target.innerText = str;
+
+        });
+    </script>
+</body>
+</html>
