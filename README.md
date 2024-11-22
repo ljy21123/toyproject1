@@ -3,8 +3,9 @@
 
 ## 공부 목표
 1. Spring Boot 기반의 웹 애플리케이션 개발
-2. RESTful API 설계 및 구현
-3. JPA를 활용한 데이터 관리
+2. MVC 패턴 이해 및 적용
+3. RESTful API 설계 및 구현
+4. JPA를 활용한 데이터 관리
 
 ## 기술 스택
 - **Spring Boot 3.3**: 웹 애플리케이션 프레임워크
